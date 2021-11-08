@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @sardortursunov
+- 👀 I’m interested in Web development
+- 🌱 I’m currently learning HTML & CSS, JavaScript,Python,Django
