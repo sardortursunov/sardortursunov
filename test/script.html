@@ -1,0 +1,33 @@
+<html>
+        <head>
+        </head>
+        <body>
+            <div id="confirm_result"></div>
+            <div id="demo"></div>
+            <script type="text/javascript">
+                var r = confirm("Click button"); 
+                /* o'zingiz ham kodni ishlatib ko'ring confirmda 2 ta button borligini ko'rasiz
+                   'r' shu buttonlardan qaytgan javobni o'zlashtiradi, ok bosilgan bo'da 'true', aks
+                    holda 'false' qiymat qabul qildi 
+                */
+                // if - oddiy shart operatori
+                if (r == true) {
+                    alert('aniqmi')
+                } else {
+                    x = '<a href="index.html">bb</a>' ;
+                }
+                // DOM elemantiga muroajat, aniqrog'i HTML elementga 
+                document.getElementById("confirm_result").innerHTML =
+                "Sizning tanlovingiz: " + x;
+                /* yuqorida kod tasnifi quyidagicha:
+                   shu sahifa ichidan id si confirm_result bo'lgan -- getElementById("confirm_result")
+                   elentni top va uning HTMLiga yangi qiymat o'zlashtir --  .innerHTML = ''
+                 */
+                var person = prompt("Ismingizni kiriting", "Harry Potter");
+                if (person != null) {
+                    document.getElementById("demo").innerHTML =
+                    "Salom " + person + "! Ishlar qanday ?";
+                }
+            </script>
+        </body>
+</html>
