@@ -4,6 +4,7 @@ body{
     font-family: sans-serif;
     background: url(foto/bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .box{
   width:300px;
