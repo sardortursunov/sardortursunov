@@ -4,6 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   z-index: -1;
+  margin: auto;
 }
 
 .container {
